@@ -1,0 +1,13 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply dark mode styles */
+body.dark {
+  @apply bg-gray-900 text-white;
+}
+
+a {
+  @apply text-blue-400 hover:text-blue-600;
+}

@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Uploads (user-generated content)
+car booking test/backend/uploads/*
+!car booking test/backend/uploads/.gitkeep
+
+# Archives & misc
+*.rar
+*.zip
+
+# Vite
+dist-ssr/
+*.local
